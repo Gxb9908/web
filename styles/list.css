@@ -1,0 +1,119 @@
+.logo_in {
+    position: absolute;
+    top: 5px;
+    right: -55px;
+    width: 75px;
+    height: 35px;
+}
+
+.logo_in img {
+    border-left: 1px solid #c81523;
+    padding-left: 5px;
+}
+
+.nav .h {
+    float: left;
+}
+
+.nav h3 {
+    float: left;
+    margin: 10px 28px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.nav .liebiao {
+    float: left;
+}
+
+.nav .liebiao li {
+    font-size: 12px;
+    line-height: 35px;
+}
+
+.liebiao li:last-child a::after {
+    content: "\e905";
+    font-family: 'icomoon';
+}
+
+.nv_xie .hb {
+    height: 120px;
+}
+
+.bd ul {
+    padding-top: 25px;
+}
+
+.bd li {
+    float: left;
+    margin-right: 14px;
+    overflow: hidden;
+    width: 289px;
+    height: 459px;
+    border: 1px solid transparent;
+    transition: all 1s;
+}
+
+.bd li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.bd li:hover {
+    border: 1px solid #c81523;
+}
+
+.bd li img {
+    width: 288px;
+    height: 288px;
+}
+
+.bd li p {
+    margin: 10px;
+    font-size: 14px;
+}
+
+.bd li span {
+    color: #e60012;
+    font-size: 22px;
+    margin: 10px;
+    font-weight: 700;
+}
+
+.bd li del {
+    font-size: 14px;
+    color: #a4a4a4;
+}
+
+.jin {
+    margin-left: 10px;
+    color: #a4a4a4;
+    font-size: 12px;
+}
+
+.jin .du {
+    display: inline-block;
+    width: 130px;
+    height: 12px;
+    border: 1px solid #e60012;
+    border-radius: 12px;
+}
+
+.du .tiao {
+    width: 117px;
+    height: 11px;
+    margin-left: -1px;
+    border: 1px solid #e60012;
+    background-color: #e60012;
+    border-radius: 12px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+li button {
+    width: 100%;
+    line-height: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #e60012;
+}
